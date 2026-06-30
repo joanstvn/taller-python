@@ -12,7 +12,7 @@ El programa debe:
 ● Imprimir la información completa de la tupla.
 ● Imprimir cada dato por separado utilizando su posición dentro de la tupla."""
 
-cuenta = (1234567890, "Joan Rios", "Ahorros", 3200000)
+cuenta = (1234567890, "Joan Rios", "Ahorros", 1000000000)
 
 print("Informacion completa de la cuenta:", cuenta)
 
