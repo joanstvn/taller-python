@@ -10,6 +10,9 @@ El programa debe:
 clientes = ["Ana", "Carlos", "Luisa", "Pedro", "Marta",
             "Jorge", "Sofia", "Daniel", "Camila", "Andres"]
 
+# Solicitar el nombre al usuario
+nombre_buscado = input("Ingrese el nombre del cliente que desea buscar: ")
+
 # Función para buscar un cliente en la lista
 def buscar_cliente(lista, nombre):
 
@@ -21,9 +24,6 @@ def buscar_cliente(lista, nombre):
 
     return encontrado
 
-
-# Solicitar el nombre al usuario
-nombre_buscado = input("Ingrese el nombre del cliente que desea buscar: ")
 
 # Llamar la función
 encontrado = buscar_cliente(clientes, nombre_buscado)
