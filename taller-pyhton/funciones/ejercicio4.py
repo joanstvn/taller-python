@@ -21,15 +21,15 @@ El programa debe:
 
 ● Imprimir el resultado de la operación."""
 
+saldo = float(input("Ingrese el saldo actual de la cuenta: "))
+retiro = float(input("Ingrese el valor que desea retirar: "))
+
 def validar_retiro(saldo, retiro):
     if retiro <= saldo:
         mensaje = "Operacion aprobada. Puede retirar el dinero."
     else:
         mensaje = "Operacion rechazada. Saldo insuficiente."
     return mensaje
-
-saldo = float(input("Ingrese el saldo actual de la cuenta: "))
-retiro = float(input("Ingrese el valor que desea retirar: "))
 
 resultado = validar_retiro(saldo, retiro)
 
