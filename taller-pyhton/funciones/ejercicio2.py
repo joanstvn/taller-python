@@ -16,12 +16,12 @@ El programa debe:
 ● Solicitar los datos necesarios.
 ● Imprimir el valor de los intereses generados."""
 
+saldo = float(input("Ingrese el saldo de la cuenta: "))
+porcentaje = float(input("Ingrese el porcentaje de interes: "))
+
 def calcular_interes(saldo, porcentaje):
     interes = saldo * (porcentaje / 100)
     return interes
-
-saldo = float(input("Ingrese el saldo de la cuenta: "))
-porcentaje = float(input("Ingrese el porcentaje de interes: "))
 
 interes_generado = calcular_interes(saldo, porcentaje)
 
