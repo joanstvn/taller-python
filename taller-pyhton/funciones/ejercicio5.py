@@ -15,12 +15,12 @@ El programa debe:
 ● Solicitar los datos.
 ● Imprimir el valor de cada cuota."""
 
+valor_prestamo = float(input("Ingrese el valor total del prestamo: "))
+numero_cuotas = int(input("Ingrese el numero de cuotas: "))
+
 def cuotas_prestamo(valor_prestamo, numero_cuotas):
     valor_cuota = valor_prestamo / numero_cuotas
     return valor_cuota
-
-valor_prestamo = float(input("Ingrese el valor total del prestamo: "))
-numero_cuotas = int(input("Ingrese el numero de cuotas: "))
 
 valor_cuota = cuotas_prestamo(valor_prestamo, numero_cuotas)
 
